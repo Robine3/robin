@@ -1,0 +1,55 @@
+reate table student2
+
+t_id int,
+t_name  varchar(20),
+OB  date,
+ourse varchar(5),
+ity  varchar(30),
+rade char(2)
+;
+ table student2
+       *
+at line 1:
+955: name is already used by an existing object
+
+
+reate table student123
+
+t_id int,
+t_name  varchar(20),
+OB  date,
+ourse varchar(5),
+ity  varchar(30),
+rade char(2)
+;
+
+created.
+
+nsert into student123
+alues(102,'john','19-Mar-2018','Bca','Jaipur','A')
+
+created.
+
+nsert into students123
+alues(103,'Alex','13-Oct-2020','MCA','Ajmer','B');
+ into students123
+      *
+at line 1:
+942: table or view does not exist
+
+
+nsert into student123
+alues(103,'Alex','13-Oct-2020','MCA','Ajmer','B');
+
+created.
+
+nsert into student123
+alues(103,'Nvn','11-feb-2001','BCA',Jhunjhunu','c'
+
+756: quoted string not properly terminated
+
+
+ommit;
+
+ complete.
+
